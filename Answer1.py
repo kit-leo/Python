@@ -92,7 +92,6 @@ def search(clazz, clazz_p):
         involved_parents.add(clazz)
         return False
 
-
 questions = []
 for i in range(int(input())):
     questions.append(input().strip())
